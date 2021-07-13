@@ -8,7 +8,7 @@ The program will:
 - prompt the user for the next operator and second operand
 - evaluate the expression
 - present the user with the result, which will be the new first operand
-- This will continue until the user chooses to quit, or undo (redo) an operation
-- 
+- This will continue until the user chooses to quit (q), or undo (z) or redo (y) an operation
+
 The undo operation will restore the last state. The redo operation restores the next state if an
 undo was previously performed.
